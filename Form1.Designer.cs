@@ -68,6 +68,7 @@
             this.StatusPanel.Location = new System.Drawing.Point(0, 162);
             this.StatusPanel.Name = "StatusPanel";
             this.StatusPanel.Size = new System.Drawing.Size(333, 22);
+            this.StatusPanel.SizingGrip = false;
             this.StatusPanel.TabIndex = 2;
             this.StatusPanel.Text = "statusStrip1";
             // 
@@ -120,9 +121,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Word To PDF";
             this.StatusPanel.ResumeLayout(false);
             this.StatusPanel.PerformLayout();
             this.ResumeLayout(false);

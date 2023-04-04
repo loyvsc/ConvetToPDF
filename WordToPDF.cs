@@ -1,14 +1,16 @@
 ﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace wtpdf
 {
     public class ToPDF : IDisposable
-    {
+    {        
         private Microsoft.Office.Interop.Word.Application _msWordApp;
         public bool IsDisposed = false;
 
         public ToPDF()
-        {
+        {            
             _msWordApp = new Microsoft.Office.Interop.Word.Application() { Visible = false };
         }
 

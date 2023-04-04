@@ -70,11 +70,11 @@
     <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Words, Version=23.2.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
-      <HintPath>packages\Aspose.Words.23.2.0\lib\net461\Aspose.Words.dll</HintPath>
+    <Reference Include="Spire.Doc, Version=10.8.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>packages\FreeSpire.Doc.10.8.0\lib\net40\Spire.Doc.dll</HintPath>
     </Reference>
-    <Reference Include="Aspose.Words.Pdf2Word, Version=23.2.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
-      <HintPath>packages\Aspose.Words.23.2.0\lib\net461\Aspose.Words.Pdf2Word.dll</HintPath>
+    <Reference Include="Spire.Pdf, Version=8.8.6.0, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>packages\FreeSpire.Doc.10.8.0\lib\net40\Spire.Pdf.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

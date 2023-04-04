@@ -49,7 +49,7 @@ namespace TestProject1
             ToPDF instance = new ToPDF();
             instance.Dispose();
             string wordPath = "C:\\Users\\PC\\Desktop\\2.docx";
-            string pdfPath = "C:\\Users\\PC\\Desktop\\2.pdf";
+            string pdfPath = "C:\\Users\\PC\\Desktop\\2.pdf";            
             Assert.Throws<ObjectDisposedException>(() => instance.WordToPDF(wordPath, pdfPath));
         }
     }
